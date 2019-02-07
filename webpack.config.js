@@ -1,21 +1,21 @@
 module.exports = {
   entry: {
-    entry: './app/index.js',
+    entry: './src/app/index.js',
   },
   output: {
     path: __dirname,
-    filename: './build/bundle.js'
+    filename: './build/bundle.js',
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
-      }
-    ]
+        use: 'babel-loader',
+      },
+    ],
   },
   performance: {
-    hints: false
-  }
-}
+    hints: false,
+  },
+};
