@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/euc-labs/space-mayhem#readme",
   "dependencies": {
-    "electron": "4.0.4",
+    "electron": "18.3.7",
     "@babel/polyfill": "7.0.0",
     "react-dom": "16.6.3",
     "react-jss": "8.6.1",
